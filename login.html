@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- head definitions go here -->
+		<link rel="stylesheet" href="css/style.css" />
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 25px;
+            }
+            a:link, a:visited {
+                background-color: rgb(76, 210, 228);
+                color: white;
+                border: 2px solid cyan;
+                border-radius: 20px;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 5px;
+            }
+            a:hover, a:active {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mobileFrame">
+            <div class="container">
+                <img src="images/cropped-D4D_Logo_353x243.jpg" alt="">
+                <h2>Welcome to Devices for the disabled!</h2>
+                <div style="margin : 5px;">
+                    <label for="username">Username :</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                
+                <div style="margin : 5px;">
+                    <label for="pass">Password :</label>
+                    <input type="password" id="pass" name="password"
+                           minlength="8" required>
+                </div>
+                <a href="devices4thedisabled.html" class="button">Sign in</a>
+
+       
+            </div>
+        </div>
+    </body>
+</html>
